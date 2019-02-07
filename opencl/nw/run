@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -ue
-
-./nw 2048 10 ./nw.cl
-

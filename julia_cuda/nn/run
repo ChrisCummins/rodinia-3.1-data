@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-set -ue
-
-filename=../../data/nn/list640k_64.txt \
-r=5 \
-lat=30 \
-lng=90 \
-julia "$@" nn.jl

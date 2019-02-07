@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-julia "$@" leukocyte.jl 10 ../../data/leukocyte/testfile.avi
